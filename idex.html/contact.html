@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Liên hệ Campus Corner để hỏi thông tin và đặt mua sản phẩm."
+    >
+
+    <title>Campus Corner | Liên hệ</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Chuyển đến nội dung chính
+    </a>
+    <header class="site-header">
+        <div class="header-container">
+
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="Campus Corner - Trang chủ"
+            >
+                <span class="brand-logo" aria-hidden="true">CC</span>
+                <span>Campus Corner</span>
+            </a>
+
+            <nav aria-label="Điều hướng chính">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Sản phẩm
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="active"
+                            aria-current="page"
+                            href="contact.html"
+                        >
+                            Liên hệ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <section class="page-introduction contact-introduction">
+            <p class="eyebrow">LIÊN HỆ</p>
+
+            <h1>Bạn cần tư vấn sản phẩm?</h1>
+
+            <p>
+                Gửi thông tin cho chúng tôi hoặc sử dụng
+                các kênh liên hệ bên dưới.
+            </p>
+        </section>
+        <section
+            class="contact-layout"
+            aria-label="Thông tin và biểu mẫu liên hệ"
+        >
+            <div class="contact-information">
+                <h2>Thông tin cửa hàng</h2>
+
+                <p>
+                    Campus Corner hỗ trợ giải đáp thông tin
+                    sản phẩm và tiếp nhận yêu cầu đặt mua.
+                </p>
+
+                <dl>
+                    <div>
+                        <dt>Email</dt>
+
+                        <dd>
+                            <a href="mailto:hello@campuscorner.vn">
+                                hello@campuscorner.vn
+                            </a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Điện thoại</dt>
+
+                        <dd>
+                            <a href="tel:+84912345678">
+                                0912 345 678
+                            </a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Địa chỉ</dt>
+
+                        <dd>
+                            207 Giải Phóng, Hà Nội
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Thời gian làm việc</dt>
+
+                        <dd>
+                            08:00–18:00, thứ Hai đến thứ Bảy
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+            <form
+                class="contact-form"
+                action="#"
+                method="post"
+            >
+                <h2>Gửi lời nhắn</h2>
+
+                <div class="form-group">
+                    <label for="fullname">
+                        Họ và tên
+                    </label>
+
+                    <input
+                        id="fullname"
+                        name="fullname"
+                        type="text"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="product">
+                        Sản phẩm quan tâm
+                    </label>
+
+                    <select id="product" name="product">
+                        <option value="">
+                            Chọn sản phẩm
+                        </option>
+
+                        <option value="notebook">
+                            Sổ kế hoạch tuần
+                        </option>
+
+                        <option value="bottle">
+                            Bình nước giữ nhiệt
+                        </option>
+
+                        <option value="headphones">
+                            Tai nghe học tập
+                        </option>
+
+                        <option value="backpack">
+                            Ba lô Campus
+                        </option>
+
+                        <option value="pens">
+                            Bộ bút ghi chú
+                        </option>
+
+                        <option value="watch">
+                            Đồng hồ tối giản
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">
+                        Nội dung
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button class="button" type="submit">
+                    Gửi thông tin
+                </button>
+
+                <p class="form-note">
+                    Đây là biểu mẫu minh họa nên chưa gửi
+                    dữ liệu đến máy chủ.
+                </p>
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            <strong>Campus Corner</strong>
+            — Tiện ích dành cho sinh viên
+        </p>
+
+        <p>
+            &copy; 2026 Campus Corner.
+            Bài thực hành HTML và CSS.
+        </p>
+    </footer>
+</body>
+</html>
